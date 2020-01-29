@@ -3,7 +3,7 @@ python:
   - "2.7"
 # command para realizar testes
 script:
-  - py.test test.py
+  - py.test teste.py
 
 after script:
 notifications:
