@@ -1,0 +1,11 @@
+language: python
+python:
+  - "2.7"
+# command para realizar testes
+script:
+  - py.test test.py
+
+after script:
+notifications:
+  recipients:
+    - marcos@slackmaker.com
